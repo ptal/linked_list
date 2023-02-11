@@ -31,13 +31,13 @@ public class LinkedList {
       size += 1;
     }
     
-    /* write other methods here */
+    /* Write other methods here, the same than in DynamicArray. */
     
     /** This is an "inner-class". A class inside a class.
      *  It is useful to keep `Node` private as it is an implementation detail of linked list.
      *  By making `Node` an inner-class, we allow `LinkedList` to access the private members of `Node`.
      *  Check the concept of inner class online for more detail :-) */
-    private class Node {
+    private static class Node {
         private int value;
         private Node nextNode;
         
