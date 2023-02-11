@@ -19,8 +19,7 @@ public class LinkedList {
     Node newNode = new Node(x);
     if (size == 0) {
       head = newNode;
-    }
-    else {
+    } else {
       Node n = head;
       while (n.nextNode != null) {
         n = n.nextNode;
