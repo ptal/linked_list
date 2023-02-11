@@ -6,13 +6,13 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-class LinkedListTest {
+class DoublyLinkedListTest {
 
-  private LinkedList list;
+  private DoublyLinkedList list;
 
   @BeforeEach
   void init() {
-    list = new LinkedList();
+    list = new DoublyLinkedList();
   }
 
   void populate() {
